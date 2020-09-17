@@ -7,11 +7,7 @@ public class Character_Movement : MonoBehaviour
     public float Move_Speed; // Movement speed. Change this value in script component.
     public float Rotate_Speed; // Rotation speed. Change this value in script component.
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 6f;
 
     // Update is called once per frame
     void Update()
