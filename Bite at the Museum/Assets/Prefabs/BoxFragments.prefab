@@ -1815,7 +1815,7 @@ GameObject:
   - component: {fileID: 8326935578237863215}
   m_Layer: 0
   m_Name: BoxFragments
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

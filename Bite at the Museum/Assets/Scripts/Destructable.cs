@@ -18,10 +18,11 @@ public class Destructable : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider col)
     {
-        if (collision.gameObject.tag == "Player")
+        if (col.gameObject.CompareTag("Player"))
         {
+            //Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
             Instantiate(remains, transform.position, transform.rotation);
             Destroy(gameObject);
         }
