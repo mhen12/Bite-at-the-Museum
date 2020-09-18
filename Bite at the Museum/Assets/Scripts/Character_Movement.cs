@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Character_Movement : MonoBehaviour
 {
     public float Move_Speed; // Movement speed. Change this value in script component.
