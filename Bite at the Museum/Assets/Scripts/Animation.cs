@@ -10,6 +10,8 @@ public class Animation : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        anim.SetBool("Idle", true);
+        anim.SetBool("Walk", false);
     }
 
     // Update is called once per frame
