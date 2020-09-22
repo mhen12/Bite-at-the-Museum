@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 877, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 602, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 602, y: 221}
   m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
-  controlID: 43
+  controlID: 98
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 65
+  controlID: 54
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.980927, y: 26.543041, z: 101.60145}
+    m_Target: {x: 170.68446, y: 6.9636803, z: 46.957542}
     speed: 2
     m_Value: {x: 18.980927, y: 26.543041, z: 101.60145}
   m_RenderMode: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.23678601, y: -0.13646463, z: 0.033611234, w: -0.9613426}
   m_Size:
-    m_Target: 86.73765
+    m_Target: 94.71967
     speed: 2
     m_Value: 86.73765
   m_Ortho:
@@ -748,8 +748,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\melis\Documents\Homework\Fall2020_EAE4500\Bite-at-the-Museum\Bite
-    at the Museum
+  m_LastProjectPath: D:\Desktop\School\Capstone\Bite-at-the-Museum\Bite at the Museum
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
