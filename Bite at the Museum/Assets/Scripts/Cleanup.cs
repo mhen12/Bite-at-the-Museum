@@ -8,6 +8,7 @@ public class Cleanup : MonoBehaviour
     void Start()
     {
         StartCoroutine(destructTimer());
+        Physics.IgnoreLayerCollision(0, 8);
     }
 
     // Update is called once per frame
@@ -19,13 +20,5 @@ public class Cleanup : MonoBehaviour
     {
         yield return new WaitForSeconds(8);
         Destroy(gameObject);
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
-        }
     }
 }
