@@ -75,6 +75,7 @@
     <Compile Include="Assets\FImpossible Creations\Shared Tools\Editor Tools\Property Attributes\FPD_Foldable.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.Core.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\FLookAnimator.cs" />
+    <Compile Include="Assets\Scripts\HeadController2.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Extensions.BirdMode.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.UpdateReferencePose.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.Maths.cs" />
@@ -110,7 +111,7 @@
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FStringMethods.cs" />
     <Compile Include="Assets\Scripts\HeadController.cs" />
-    <Compile Include="Assets\Scripts\HeadController2.cs" />
+    <Compile Include="Assets\Scripts\Orbit.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FImpossible Creations\Look Animator\Read Me - Look Animator.txt" />
