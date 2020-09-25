@@ -66,6 +66,7 @@
     <Compile Include="Assets\FImpossible Creations\Shared Tools\GUI Helpers\FGUI_Resources.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Extensions.Nodding.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Class.CompensationBone.cs" />
+    <Compile Include="Assets\Scripts\HeadController.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Extensions.BoneWeights.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.Gizmos.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FAnimatorMethods.cs" />
@@ -75,7 +76,6 @@
     <Compile Include="Assets\FImpossible Creations\Shared Tools\Editor Tools\Property Attributes\FPD_Foldable.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.Core.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\FLookAnimator.cs" />
-    <Compile Include="Assets\Scripts\HeadController2.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Extensions.BirdMode.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.UpdateReferencePose.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.Maths.cs" />
@@ -87,6 +87,7 @@
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FEasing.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\Shared Scripts\FBasic_Enums.cs" />
     <Compile Include="Assets\Scripts\Dialogue_Manager.cs" />
+    <Compile Include="Assets\Scripts\Grab.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\Editor Tools\Property Attributes\FPD_SuffixAttribute.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FVectorMethods.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\Editor Tools\FEditor_StylesIn.cs" />
@@ -110,8 +111,6 @@
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.Variables.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FStringMethods.cs" />
-    <Compile Include="Assets\Scripts\HeadController.cs" />
-    <Compile Include="Assets\Scripts\Orbit.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FImpossible Creations\Look Animator\Read Me - Look Animator.txt" />

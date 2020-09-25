@@ -12,6 +12,7 @@ public class Movement : MonoBehaviour
     public float turnSmooth = 0.1f;
     float turnVelocity;
     private Animator anim;
+    public Collider jaw;
 
     // Start is called before the first frame update
     void Start()
@@ -21,11 +22,16 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("b"))
+        {
+            anim.SetTrigger("Bite");
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if(direction.magnitude >= 0.1f)
+        if (direction.magnitude >= 0.1f)
         {
             anim.SetBool("Walk", true);
             anim.SetBool("Idle", false);
