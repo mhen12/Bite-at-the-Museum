@@ -7,6 +7,7 @@ public class Grab : MonoBehaviour
     private bool bitten = false;
     private GameObject grabbedItem;
     public Animator anim;
+    private float offset = -5.0f;
 
     void Update()
     {
@@ -25,6 +26,8 @@ public class Grab : MonoBehaviour
 
     public void Pickup(GameObject Obj)
     {
+        Obj.transform.position = this.transform.position;
+        Obj.transform.position = Obj.transform.position + new Vector3(0, offset, 0);
         Obj.transform.parent = this.transform;
         Obj.transform.GetComponent<Rigidbody>().isKinematic = true;
         bitten = true;
