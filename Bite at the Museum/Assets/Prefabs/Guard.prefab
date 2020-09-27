@@ -202,5 +202,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e993926f04f23504594ba60b3a82e208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: Yo wuzzup, I'm a security guard. I kinda just look like the blue pill
-    from The Matrix, but I might get art someday...
+  dialogue: Hey Tony, could you go through this maze and grab the crate for me? It's
+    too heavy for me.
