@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
     private Animator anim;
     public Collider jaw;
 
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +37,8 @@ public class Movement : MonoBehaviour
             anim.SetBool("Walk", true);
             anim.SetBool("Idle", false);
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnVelocity, turnSmooth);
-            transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnVelocity, turnSmooth);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             Vector3 movDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(movDir.normalized * speed * Time.deltaTime);

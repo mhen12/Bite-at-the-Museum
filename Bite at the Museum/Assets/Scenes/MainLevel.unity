@@ -1221,7 +1221,7 @@ MonoBehaviour:
   controller: {fileID: 724215653}
   cam: {fileID: 963194228}
   speed: 50
-  turnSmooth: 1
+  turnSmooth: 0.2
   jaw: {fileID: 595496662}
 --- !u!143 &724215653
 CharacterController:
@@ -2092,6 +2092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279476941}
   - component: {fileID: 1279476940}
+  - component: {fileID: 1279476942}
   m_Layer: 0
   m_Name: NewCam
   m_TagString: Untagged
@@ -2189,12 +2190,12 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 38
-    m_Radius: 25.8
   - m_Height: 29.7
     m_Radius: 51.6
-  - m_Height: 6.9
-    m_Radius: 25.8
+  - m_Height: 29.7
+    m_Radius: 51.6
+  - m_Height: 29.7
+    m_Radius: 51.6
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 921287480}
@@ -2217,6 +2218,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279476942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279476939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b75e34d155abe49b51138382fdc3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  counterspeed: -10
 --- !u!1 &1298900799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5220433711247377110, guid: dfdfc0f18a202234096bca9328c8c6a0, type: 3}
@@ -2527,7 +2542,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612064833}
-  m_LocalRotation: {x: 0.20225024, y: -0.000000018839758, z: 0.000000003890752, w: 0.9793339}
+  m_LocalRotation: {x: 0.20225024, y: 0.000000018839758, z: -0.000000003890752, w: 0.9793339}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
