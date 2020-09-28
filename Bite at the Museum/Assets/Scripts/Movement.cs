@@ -13,8 +13,9 @@ public class Movement : MonoBehaviour
     float turnVelocity;
     private Animator anim;
     public Collider jaw;
+    public AudioSource roar;
 
-   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,11 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown("b"))
         {
             anim.SetTrigger("Bite");
+        }
+
+        if(Input.GetKeyDown("r") && !roar.isPlaying)
+        {
+            roar.Play();
         }
 
         float horizontal = Input.GetAxisRaw("Horizontal");
