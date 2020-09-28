@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +13,10 @@ public class Grab : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown("v") && bitten)
-                Drop(grabbedItem);
+            Drop(grabbedItem);
+
+        if (Input.GetKeyDown("c") && bitten)
+            Eat(grabbedItem);
     }
 
     void OnTriggerEnter(Collider col)
@@ -39,5 +43,14 @@ public class Grab : MonoBehaviour
         Obj.transform.GetComponent<Rigidbody>().isKinematic = false;
         bitten = false;
         anim.SetTrigger("Bite");
+        //grabbedItem = null;
+    }
+
+    public void Eat(GameObject Obj)
+    {
+        anim.SetTrigger("Bite");
+        Destroy(Obj);
+        grabbedItem = null;
+        bitten = false;
     }
 }
