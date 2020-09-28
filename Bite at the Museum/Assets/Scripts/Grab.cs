@@ -16,7 +16,7 @@ public class Grab : MonoBehaviour
             Drop(grabbedItem);
 
         if (Input.GetKeyDown("c") && bitten)
-            Eat(grabbedItem);
+            StartCoroutine(Eat(grabbedItem));
     }
 
     void OnTriggerEnter(Collider col)
@@ -43,12 +43,13 @@ public class Grab : MonoBehaviour
         Obj.transform.GetComponent<Rigidbody>().isKinematic = false;
         bitten = false;
         anim.SetTrigger("Bite");
-        //grabbedItem = null;
+        grabbedItem = null;
     }
 
-    public void Eat(GameObject Obj)
+    IEnumerator Eat(GameObject Obj)
     {
         anim.SetTrigger("Bite");
+        yield return new WaitForSeconds(0.5f);
         Destroy(Obj);
         grabbedItem = null;
         bitten = false;
