@@ -118,37 +118,37 @@
      <None Include="Assets\FImpossible Creations\Look Animator\Read Me - Look Animator.txt" />
      <None Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FHelpers - ReadMe.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Desktop/School/Capstone/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/melis/Documents/Homework/Fall2020_EAE4500/Bite-at-the-Museum/Bite at the Museum/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
