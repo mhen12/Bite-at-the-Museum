@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Debris
   - Bite
+  - Tophat
   layers:
   - Default
   - TransparentFX
