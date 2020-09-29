@@ -7,6 +7,7 @@ public class Dialogue_Holder : MonoBehaviour
 
     public string dialogue;
     private Dialogue_Manager dMan;
+    private bool close = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,14 @@ public class Dialogue_Holder : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !close)
         {
             //if (Input.GetKeyDown(KeyCode.Space)) // should make you press space first, but not working.
             //{
                 dMan.ShowBox(dialogue);
             //}
+
+            close = true;
         }
     }
 }

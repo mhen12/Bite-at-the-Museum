@@ -35,6 +35,10 @@ public class Grab : MonoBehaviour
         Obj.transform.parent = this.transform;
         Obj.transform.GetComponent<Rigidbody>().isKinematic = true;
         bitten = true;
+        if (Obj.GetComponent<Navigation_Reversal_Script>() != null)
+        {
+            Obj.GetComponent<Navigation_Reversal_Script>().enabled = false;
+        }
     }
 
     public void Drop(GameObject Obj)
