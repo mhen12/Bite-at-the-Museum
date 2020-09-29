@@ -117,6 +117,8 @@
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Logic.Variables.cs" />
     <Compile Include="Assets\FImpossible Creations\Look Animator\Code\LookAnimator.Misc.cs" />
     <Compile Include="Assets\FImpossible Creations\Shared Tools\FHelpers\FStringMethods.cs" />
+    <Compile Include="Assets\Scripts\dummy_1.cs" />
+    <Compile Include="Assets\Scripts\Dialogue_Holder_2.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FImpossible Creations\Look Animator\Read Me - Look Animator.txt" />

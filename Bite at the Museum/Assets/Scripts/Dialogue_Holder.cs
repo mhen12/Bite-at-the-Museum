@@ -27,7 +27,7 @@ public class Dialogue_Holder : MonoBehaviour
         {
             //if (Input.GetKeyDown(KeyCode.Space)) // should make you press space first, but not working.
             //{
-                dMan.ShowBox(dialogue);
+                dMan.GetComponent<Dialogue_Manager>().ShowBox(dialogue);
             //}
 
             close = true;
