@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Debris
   - Bite
-  - Nav_Reversal
+  - Tophat
   layers:
   - Default
   - TransparentFX
